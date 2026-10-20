@@ -1,0 +1,16 @@
+﻿__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+
+# Intermediate preview files
+*_preview.json
+
+# Duplicate scripts and logs inside output
+output/*.py
+output/*.log
+output/*_preview.json
+crawler.log
